@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -6,11 +7,20 @@
 	<artifactId>aws-sqs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>aws-sqs</groupId>
+  <artifactId>aws-sqs</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+<dependencies>
+>>>>>>> 2a0eb5eb0c64a2ac6dc8ec27152d52a9383e31ea
 
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-sqs</artifactId>
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-s3</artifactId>
@@ -26,13 +36,19 @@
 			</dependency>
 	
 			
+=======
+>>>>>>> 2a0eb5eb0c64a2ac6dc8ec27152d52a9383e31ea
 
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
 
 			<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-sns -->
+<<<<<<< HEAD
 
+=======
+			
+>>>>>>> 2a0eb5eb0c64a2ac6dc8ec27152d52a9383e31ea
 			<dependency>
 				<groupId>com.amazonaws</groupId>
 				<artifactId>aws-java-sdk-bom</artifactId>
@@ -40,6 +56,7 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+<<<<<<< HEAD
 
 		
 
@@ -47,4 +64,11 @@
 
 
 	</dependencyManagement>
+=======
+		</dependencies>
+	</dependencyManagement>
+
+
+
+>>>>>>> 2a0eb5eb0c64a2ac6dc8ec27152d52a9383e31ea
 </project>
